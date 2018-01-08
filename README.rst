@@ -29,7 +29,7 @@ Install
 
 .. code:: bash
 
-    $ pip install minimal-keys
+    $ pip install minimalkeys
 
 Usage
 -----
@@ -46,8 +46,8 @@ License
 
 MIT
 
-.. |PyPI version| image:: https://img.shields.io/pypi/v/minimal-keys.svg
-    :target: https://pypi.python.org/pypi/minimal-keys
+.. |PyPI version| image:: https://img.shields.io/pypi/v/minimalkeys.svg
+    :target: https://pypi.python.org/pypi/minimalkeys
     :alt: Latest PyPI Version
 .. |Doc Status| image:: https://readthedocs.org/projects/minimal-keys/badge/?version=latest
     :target: http://minimal-keys.readthedocs.io/en/latest/?badge=latest
