@@ -32,11 +32,13 @@ def minimal_keys(keys, *, key=None, split=r'(\w+)'):
         >>> minimal_keys(['alice/assignments/hw1.txt', 'bob/assignments/hw1.txt'])
         ['alice', 'bob']
 
+    Use ``key`` to normalize components before comparing them:
         >>> minimal_keys(['assignments/alice.txt', 'Assignments/bob.txt'])
         ['assignments/alice', 'Assignments/bob']
         >>> minimal_keys(['assignments/alice.txt', 'Assignments/bob.txt'], key=str.upper)
         ['alice', 'bob']
 
+    Use ``split`` to specify the boundaries for common substring removal:
         >>> minimal_keys(['assignments/alice_smith.txt', 'assignments/alice_jones.txt'])
         ['alice_smith', 'alice_jones']
         >>> minimal_keys(['assignments/alice_smith.txt', 'assignments/alice_jones.txt'], \
