@@ -4,8 +4,8 @@
    :maxdepth: 2
    :caption: Contents:
 
-Package contents
-----------------
+API
+---
 
 .. automodule:: minimalkeys
     :members:

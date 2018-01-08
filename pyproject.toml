@@ -17,5 +17,11 @@ classifiers = [
     "Programming Language :: Python :: 3.5",
     "Programming Language :: Python :: 3.6",
 ]
-dev-requires = ["pytest (~=3.2.2)"]
+dev-requires = [
+    "bumpversion",
+    "keyring",
+    "pytest (~=3.2.2)",
+    "Sphinx",
+    "sphinx_rtd_theme",
+]
 requires-python = ">=3.5"
