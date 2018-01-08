@@ -22,7 +22,7 @@ def minimal_keys(keys, *, key=None, split=r'(\w+)'):
 
     Returns
     -------
-    [str]
+    str
         A sequence of keys.
     """
     splitter = re.compile(split).split
@@ -44,7 +44,7 @@ def minimal_seq_keys(keys, key=None):
 
     Returns
     -------
-    [seq]
+    seq
         A sequence of keys.
     """
     key = key or (lambda k: k)

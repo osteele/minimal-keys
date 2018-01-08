@@ -1,7 +1,7 @@
 Minimal Keys
 ============
 
-|PyPI version| |License| |Supported Python|
+|PyPI version| |Doc Status| |License| |Supported Python|
 
 Compute the minimal keys for a collection of strings or sequences. This is
 intended for use in presenting data in a user interface.
@@ -49,6 +49,9 @@ MIT
 .. |PyPI version| image:: https://img.shields.io/pypi/v/minimal-keys.svg
     :target: https://pypi.python.org/pypi/minimal-keys
     :alt: Latest PyPI Version
+.. |Doc Status| image:: https://readthedocs.org/projects/minimal-keys/badge/?version=latest
+    :target: http://minimal-keys.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
 .. |License| image:: https://img.shields.io/pypi/l/minimal-keys.svg
     :target: https://pypi.python.org/pypi/minimal-keys
     :alt: License
