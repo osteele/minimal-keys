@@ -3,7 +3,7 @@ Minimal Keys
 
 |PyPI version| |Doc Status| |License| |Supported Python|
 
-Compute the minimal keys for a collection of strings or sequences.
+Compute the minimal unique keys for a collection of strings or sequences.
 
 This is intended for use in presenting data in a user interface. For example,
 the ``nbcollate`` command-line interface from the nbcollate_ package uses it to

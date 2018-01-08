@@ -1,4 +1,4 @@
-"Compute the minimal keys for a collection of strings or sequences."
+"Compute the minimal unique keys for a collection of strings or sequences."
 
 __version__ = "0.1.0"
 
@@ -6,7 +6,7 @@ import re
 
 
 def minimal_keys(keys, *, key=None, split=r'(\w+)'):
-    """Compute the minimal keys for a collection of string.
+    """Compute the minimal unique keys for a collection of string.
 
     Parameters
     ----------
@@ -52,7 +52,7 @@ def minimal_keys(keys, *, key=None, split=r'(\w+)'):
 
 
 def minimal_seq_keys(keys, key=None):
-    """Compute the minimal keys for a collection of sequences.
+    """Compute the minimal unique keys for a collection of sequences.
 
     Parameters
     ----------
