@@ -50,6 +50,7 @@ Usage
     >>> minimal_keys(["assignments/alice/hw1.txt", "assignments/bob/hw1.txt"])
     ['alice', 'bob']
 
+For more examples, see the `API documentation`_.
 
 License
 -------
@@ -71,3 +72,4 @@ MIT
 
 .. _superkey: https://en.wikipedia.org/wiki/Superkey
 .. _nbcollate: https://github.com/osteele/nbcollate
+.. _API documentation: http://minimal-keys.readthedocs.io/en/latest/?badge=latest#module-minimalkeys
