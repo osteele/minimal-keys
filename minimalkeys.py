@@ -24,6 +24,24 @@ def minimal_keys(keys, *, key=None, split=r'(\w+)'):
     -------
     str
         A sequence of keys.
+
+    Examples
+    --------
+        >>> minimal_keys(['assignments/alice/hw1.txt', 'assignments/bob/hw1.txt'])
+        ['alice', 'bob']
+        >>> minimal_keys(['alice/assignments/hw1.txt', 'bob/assignments/hw1.txt'])
+        ['alice', 'bob']
+
+        >>> minimal_keys(['assignments/alice.txt', 'Assignments/bob.txt'])
+        ['assignments/alice', 'Assignments/bob']
+        >>> minimal_keys(['assignments/alice.txt', 'Assignments/bob.txt'], key=str.upper)
+        ['alice', 'bob']
+
+        >>> minimal_keys(['assignments/alice_smith.txt', 'assignments/alice_jones.txt'])
+        ['alice_smith', 'alice_jones']
+        >>> minimal_keys(['assignments/alice_smith.txt', 'assignments/alice_jones.txt'], \
+                         split=r'([a-z]+)')
+        ['smith', 'jones']
     """
     splitter = re.compile(split).split
     keys = list(map(splitter, keys))

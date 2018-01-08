@@ -18,7 +18,3 @@ def test_minimal_keys_splitter():
                         ) == ['alice_smith', 'alice_jones']
     assert (minimal_keys(['assignments/alice_smith.txt', 'assignments/alice_jones.txt'],
                          split=r'([a-z]+)') == ['smith', 'jones'])
-
-
-def test_minimal_keys_key_option():
-    assert minimal_keys(['assignments/alice.txt', 'Assignments/bob.txt'], key=str.upper) == ['alice', 'bob']
